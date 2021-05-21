@@ -12,7 +12,7 @@ def job_list(url):
     for job in jobs: 
         cop_name=job.get(' data-cust-name')
         job_name=job.get('data-job-name')
-        dict1={"編號":n," ,“公司名稱":cop_name,"職務名稱":job_name}
+        dict1={"編號":n,"公司名稱":cop_name,"職務名稱":job_name}
         print("公司名稱:" , cop_name)
         print("職務名稱:" , job_name)
         company_job.append(dict1)
