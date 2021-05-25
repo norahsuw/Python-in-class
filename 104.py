@@ -31,7 +31,9 @@ def main():
     p=1
     urls = ['https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=Python&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=14&asc=0&page=12&mode=s&jobsource=2018indexpoc',
             'https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=Python&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=14&asc=0&page=2&mode=s&jobsource=2018indexpoc',
-            'https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=Python&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=14&asc=0&page=3&mode=s&jobsource=2018indexpoc']
+            'https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=Python&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=14&asc=0&page=3&mode=s&jobsource=2018indexpoc',
+            'https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=Python&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=14&asc=0&page=4&mode=s&jobsource=2018indexpoc',
+            'https://www.104.com.tw/jobs/search/?ro=0&kwop=7&keyword=Python&expansionType=area%2Cspec%2Ccom%2Cjob%2Cwf%2Cwktm&order=14&asc=0&page=5&mode=s&jobsource=2018indexpoc']
     for url in urls:
         print('-'*50)
         print(' page '+str(p))
