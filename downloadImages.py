@@ -6,7 +6,7 @@ html = requests.get(url)
 html.encoding="utf-8"
 sp = BeautifulSoup(html.text, 'html.parser')
 
-images_dir="images2/"
+images_dir="images/"
 if not os.path.exists(images_dir):
     os.mkdir(images_dir)
 
